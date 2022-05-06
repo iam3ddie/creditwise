@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Credit Score View Controller-->
+        <scene sceneID="KgY-MO-7EO">
+            <objects>
+                <viewController storyboardIdentifier="CreditScoreViewController" id="FaU-cP-dTg" customClass="CreditScoreViewController" customModule="CreditWise" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="GBI-Ne-vOF">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JpL-ir-iTO" customClass="CreditScoreView" customModule="CreditWise" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="fLN-YV-dML"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="JpL-ir-iTO" firstAttribute="top" secondItem="fLN-YV-dML" secondAttribute="top" id="BJf-0e-Iij"/>
+                            <constraint firstItem="JpL-ir-iTO" firstAttribute="leading" secondItem="fLN-YV-dML" secondAttribute="leading" id="a6L-Ne-Ycm"/>
+                            <constraint firstItem="fLN-YV-dML" firstAttribute="bottom" secondItem="JpL-ir-iTO" secondAttribute="bottom" id="hKb-Kt-WeC"/>
+                            <constraint firstItem="fLN-YV-dML" firstAttribute="trailing" secondItem="JpL-ir-iTO" secondAttribute="trailing" id="mee-sX-A3p"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="creditScoreView" destination="JpL-ir-iTO" id="ghm-Qh-f5M"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iuu-El-96S" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-307" y="-36"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
