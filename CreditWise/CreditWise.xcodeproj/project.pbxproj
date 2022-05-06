@@ -9,13 +9,33 @@
 /* Begin PBXBuildFile section */
 		40083EDA2816FC6900F07F4A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40083ED92816FC6900F07F4A /* AppDelegate.swift */; };
 		40083EDC2816FC6900F07F4A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40083EDB2816FC6900F07F4A /* SceneDelegate.swift */; };
-		40083EDE2816FC6900F07F4A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40083EDD2816FC6900F07F4A /* ViewController.swift */; };
-		40083EE12816FC6900F07F4A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40083EDF2816FC6900F07F4A /* Main.storyboard */; };
+		40083EDE2816FC6900F07F4A /* CreditScoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40083EDD2816FC6900F07F4A /* CreditScoreViewController.swift */; };
 		40083EE32816FC6B00F07F4A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40083EE22816FC6B00F07F4A /* Assets.xcassets */; };
 		40083EE62816FC6B00F07F4A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40083EE42816FC6B00F07F4A /* LaunchScreen.storyboard */; };
-		40083EF12816FC6B00F07F4A /* CreditWiseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40083EF02816FC6B00F07F4A /* CreditWiseTests.swift */; };
 		40083EFB2816FC6C00F07F4A /* CreditWiseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40083EFA2816FC6C00F07F4A /* CreditWiseUITests.swift */; };
 		40083EFD2816FC6C00F07F4A /* CreditWiseUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40083EFC2816FC6C00F07F4A /* CreditWiseUITestsLaunchTests.swift */; };
+		403751AA2821931F003C0EC4 /* CreditScoreViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403751A92821931F003C0EC4 /* CreditScoreViewModel.swift */; };
+		403751AE2821A59E003C0EC4 /* Dynamic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403751AD2821A59E003C0EC4 /* Dynamic.swift */; };
+		403751B028221ECE003C0EC4 /* CreditScore.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 403751AF28221ECE003C0EC4 /* CreditScore.storyboard */; };
+		403751B428222663003C0EC4 /* UIStoryboard+Loader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403751B32822213C003C0EC4 /* UIStoryboard+Loader.swift */; };
+		403751B928223214003C0EC4 /* CreditValuesRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403751B828223214003C0EC4 /* CreditValuesRepository.swift */; };
+		403751BC28223E76003C0EC4 /* RequestHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403751BB28223E76003C0EC4 /* RequestHandler.swift */; };
+		403751C228225681003C0EC4 /* NetworkClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403751C128225681003C0EC4 /* NetworkClient.swift */; };
+		403751C428225CF0003C0EC4 /* CreditValuesRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403751C328225CF0003C0EC4 /* CreditValuesRequest.swift */; };
+		403751C8282295B3003C0EC4 /* CreditValues.json in Resources */ = {isa = PBXBuildFile; fileRef = 403751C7282294A0003C0EC4 /* CreditValues.json */; };
+		404107DF2823DB0D00DCAE0D /* CreditValuesRepositoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 404107DE2823DB0D00DCAE0D /* CreditValuesRepositoryTests.swift */; };
+		40410821282429E400DCAE0D /* ResponseHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40410820282429E400DCAE0D /* ResponseHandler.swift */; };
+		404108252824D77500DCAE0D /* Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 404108242824D77500DCAE0D /* Errors.swift */; };
+		40410829282516BF00DCAE0D /* CreditScoreView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40410828282516BF00DCAE0D /* CreditScoreView.xib */; };
+		4041082B282517F500DCAE0D /* CreditScoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4041082A282517F500DCAE0D /* CreditScoreView.swift */; };
+		4041082E2825226800DCAE0D /* UIVIew+NibLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4041082D2825226800DCAE0D /* UIVIew+NibLoader.swift */; };
+		404108302825240D00DCAE0D /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4041082F2825240D00DCAE0D /* View.swift */; };
+		4041083328253F2100DCAE0D /* NSAttributedString+Concatenate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4041083228253F2100DCAE0D /* NSAttributedString+Concatenate.swift */; };
+		4041083928254D7200DCAE0D /* UIViewController+NavBarStyling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4041083828254D7200DCAE0D /* UIViewController+NavBarStyling.swift */; };
+		40FE5AEA281A72FE00B6C5BE /* CreditValuesModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40FE5AE9281A72FE00B6C5BE /* CreditValuesModels.swift */; };
+		40FE5AEB281A72FE00B6C5BE /* CreditValuesModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40FE5AE9281A72FE00B6C5BE /* CreditValuesModels.swift */; };
+		40FE5AEE281B47F300B6C5BE /* CreditValuesRequestsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40FE5AEC281B47F300B6C5BE /* CreditValuesRequestsTests.swift */; };
+		40FE5AF7281BEEF800B6C5BE /* NetworkClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40FE5AF6281BEEF800B6C5BE /* NetworkClientTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,16 +59,35 @@
 		40083ED62816FC6900F07F4A /* CreditWise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CreditWise.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		40083ED92816FC6900F07F4A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		40083EDB2816FC6900F07F4A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		40083EDD2816FC6900F07F4A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		40083EE02816FC6900F07F4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		40083EDD2816FC6900F07F4A /* CreditScoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditScoreViewController.swift; sourceTree = "<group>"; };
 		40083EE22816FC6B00F07F4A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		40083EE52816FC6B00F07F4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		40083EE72816FC6B00F07F4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		40083EEC2816FC6B00F07F4A /* CreditWiseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CreditWiseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		40083EF02816FC6B00F07F4A /* CreditWiseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditWiseTests.swift; sourceTree = "<group>"; };
 		40083EF62816FC6B00F07F4A /* CreditWiseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CreditWiseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		40083EFA2816FC6C00F07F4A /* CreditWiseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditWiseUITests.swift; sourceTree = "<group>"; };
 		40083EFC2816FC6C00F07F4A /* CreditWiseUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditWiseUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		403751A92821931F003C0EC4 /* CreditScoreViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditScoreViewModel.swift; sourceTree = "<group>"; };
+		403751AD2821A59E003C0EC4 /* Dynamic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dynamic.swift; sourceTree = "<group>"; };
+		403751AF28221ECE003C0EC4 /* CreditScore.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CreditScore.storyboard; sourceTree = "<group>"; };
+		403751B32822213C003C0EC4 /* UIStoryboard+Loader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIStoryboard+Loader.swift"; sourceTree = "<group>"; };
+		403751B828223214003C0EC4 /* CreditValuesRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditValuesRepository.swift; sourceTree = "<group>"; };
+		403751BB28223E76003C0EC4 /* RequestHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestHandler.swift; sourceTree = "<group>"; };
+		403751C128225681003C0EC4 /* NetworkClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkClient.swift; sourceTree = "<group>"; };
+		403751C328225CF0003C0EC4 /* CreditValuesRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditValuesRequest.swift; sourceTree = "<group>"; };
+		403751C7282294A0003C0EC4 /* CreditValues.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = CreditValues.json; sourceTree = "<group>"; };
+		404107DE2823DB0D00DCAE0D /* CreditValuesRepositoryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditValuesRepositoryTests.swift; sourceTree = "<group>"; };
+		40410820282429E400DCAE0D /* ResponseHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseHandler.swift; sourceTree = "<group>"; };
+		404108242824D77500DCAE0D /* Errors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Errors.swift; sourceTree = "<group>"; };
+		40410828282516BF00DCAE0D /* CreditScoreView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CreditScoreView.xib; sourceTree = "<group>"; };
+		4041082A282517F500DCAE0D /* CreditScoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditScoreView.swift; sourceTree = "<group>"; };
+		4041082D2825226800DCAE0D /* UIVIew+NibLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIVIew+NibLoader.swift"; sourceTree = "<group>"; };
+		4041082F2825240D00DCAE0D /* View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
+		4041083228253F2100DCAE0D /* NSAttributedString+Concatenate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSAttributedString+Concatenate.swift"; sourceTree = "<group>"; };
+		4041083828254D7200DCAE0D /* UIViewController+NavBarStyling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+NavBarStyling.swift"; sourceTree = "<group>"; };
+		40FE5AE9281A72FE00B6C5BE /* CreditValuesModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditValuesModels.swift; sourceTree = "<group>"; };
+		40FE5AEC281B47F300B6C5BE /* CreditValuesRequestsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditValuesRequestsTests.swift; sourceTree = "<group>"; };
+		40FE5AF6281BEEF800B6C5BE /* NetworkClientTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkClientTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,10 +138,13 @@
 		40083ED82816FC6900F07F4A /* CreditWise */ = {
 			isa = PBXGroup;
 			children = (
+				403751BA28223E2A003C0EC4 /* Network */,
+				403751B5282231B8003C0EC4 /* CreditScore */,
+				403751B228222118003C0EC4 /* Extensions */,
+				4041083128253EF300DCAE0D /* Overloads */,
 				40083ED92816FC6900F07F4A /* AppDelegate.swift */,
 				40083EDB2816FC6900F07F4A /* SceneDelegate.swift */,
-				40083EDD2816FC6900F07F4A /* ViewController.swift */,
-				40083EDF2816FC6900F07F4A /* Main.storyboard */,
+				403751AD2821A59E003C0EC4 /* Dynamic.swift */,
 				40083EE22816FC6B00F07F4A /* Assets.xcassets */,
 				40083EE42816FC6B00F07F4A /* LaunchScreen.storyboard */,
 				40083EE72816FC6B00F07F4A /* Info.plist */,
@@ -113,7 +155,10 @@
 		40083EEF2816FC6B00F07F4A /* CreditWiseTests */ = {
 			isa = PBXGroup;
 			children = (
-				40083EF02816FC6B00F07F4A /* CreditWiseTests.swift */,
+				403751C628229449003C0EC4 /* Stubs */,
+				40FE5AEC281B47F300B6C5BE /* CreditValuesRequestsTests.swift */,
+				40FE5AF6281BEEF800B6C5BE /* NetworkClientTests.swift */,
+				404107DE2823DB0D00DCAE0D /* CreditValuesRepositoryTests.swift */,
 			);
 			path = CreditWiseTests;
 			sourceTree = "<group>";
@@ -125,6 +170,91 @@
 				40083EFC2816FC6C00F07F4A /* CreditWiseUITestsLaunchTests.swift */,
 			);
 			path = CreditWiseUITests;
+			sourceTree = "<group>";
+		};
+		403751B228222118003C0EC4 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				403751B32822213C003C0EC4 /* UIStoryboard+Loader.swift */,
+				4041082D2825226800DCAE0D /* UIVIew+NibLoader.swift */,
+				4041083828254D7200DCAE0D /* UIViewController+NavBarStyling.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		403751B5282231B8003C0EC4 /* CreditScore */ = {
+			isa = PBXGroup;
+			children = (
+				403751B7282231D7003C0EC4 /* Repository */,
+				403751B6282231CA003C0EC4 /* View */,
+			);
+			name = CreditScore;
+			sourceTree = "<group>";
+		};
+		403751B6282231CA003C0EC4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4041082C282518C000DCAE0D /* CreditScoreView */,
+				403751AF28221ECE003C0EC4 /* CreditScore.storyboard */,
+				40083EDD2816FC6900F07F4A /* CreditScoreViewController.swift */,
+				403751A92821931F003C0EC4 /* CreditScoreViewModel.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		403751B7282231D7003C0EC4 /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				404107DD2823D37800DCAE0D /* Model */,
+				403751B828223214003C0EC4 /* CreditValuesRepository.swift */,
+				403751C328225CF0003C0EC4 /* CreditValuesRequest.swift */,
+			);
+			name = Repository;
+			sourceTree = "<group>";
+		};
+		403751BA28223E2A003C0EC4 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				403751BB28223E76003C0EC4 /* RequestHandler.swift */,
+				40410820282429E400DCAE0D /* ResponseHandler.swift */,
+				403751C128225681003C0EC4 /* NetworkClient.swift */,
+				404108242824D77500DCAE0D /* Errors.swift */,
+			);
+			name = Network;
+			sourceTree = "<group>";
+		};
+		403751C628229449003C0EC4 /* Stubs */ = {
+			isa = PBXGroup;
+			children = (
+				403751C7282294A0003C0EC4 /* CreditValues.json */,
+			);
+			path = Stubs;
+			sourceTree = "<group>";
+		};
+		404107DD2823D37800DCAE0D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				40FE5AE9281A72FE00B6C5BE /* CreditValuesModels.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		4041082C282518C000DCAE0D /* CreditScoreView */ = {
+			isa = PBXGroup;
+			children = (
+				4041082F2825240D00DCAE0D /* View.swift */,
+				4041082A282517F500DCAE0D /* CreditScoreView.swift */,
+				40410828282516BF00DCAE0D /* CreditScoreView.xib */,
+			);
+			name = CreditScoreView;
+			sourceTree = "<group>";
+		};
+		4041083128253EF300DCAE0D /* Overloads */ = {
+			isa = PBXGroup;
+			children = (
+				4041083228253F2100DCAE0D /* NSAttributedString+Concatenate.swift */,
+			);
+			name = Overloads;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,9 +361,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				403751B028221ECE003C0EC4 /* CreditScore.storyboard in Resources */,
 				40083EE62816FC6B00F07F4A /* LaunchScreen.storyboard in Resources */,
+				40410829282516BF00DCAE0D /* CreditScoreView.xib in Resources */,
 				40083EE32816FC6B00F07F4A /* Assets.xcassets in Resources */,
-				40083EE12816FC6900F07F4A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -241,6 +372,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				403751C8282295B3003C0EC4 /* CreditValues.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +390,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				40083EDE2816FC6900F07F4A /* ViewController.swift in Sources */,
+				404108302825240D00DCAE0D /* View.swift in Sources */,
+				403751C428225CF0003C0EC4 /* CreditValuesRequest.swift in Sources */,
+				403751B928223214003C0EC4 /* CreditValuesRepository.swift in Sources */,
+				403751B428222663003C0EC4 /* UIStoryboard+Loader.swift in Sources */,
+				40083EDE2816FC6900F07F4A /* CreditScoreViewController.swift in Sources */,
+				4041082B282517F500DCAE0D /* CreditScoreView.swift in Sources */,
+				403751C228225681003C0EC4 /* NetworkClient.swift in Sources */,
+				4041083928254D7200DCAE0D /* UIViewController+NavBarStyling.swift in Sources */,
+				4041083328253F2100DCAE0D /* NSAttributedString+Concatenate.swift in Sources */,
+				40410821282429E400DCAE0D /* ResponseHandler.swift in Sources */,
+				403751AE2821A59E003C0EC4 /* Dynamic.swift in Sources */,
+				404108252824D77500DCAE0D /* Errors.swift in Sources */,
+				403751BC28223E76003C0EC4 /* RequestHandler.swift in Sources */,
+				4041082E2825226800DCAE0D /* UIVIew+NibLoader.swift in Sources */,
 				40083EDA2816FC6900F07F4A /* AppDelegate.swift in Sources */,
 				40083EDC2816FC6900F07F4A /* SceneDelegate.swift in Sources */,
+				403751AA2821931F003C0EC4 /* CreditScoreViewModel.swift in Sources */,
+				40FE5AEA281A72FE00B6C5BE /* CreditValuesModels.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,7 +415,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				40083EF12816FC6B00F07F4A /* CreditWiseTests.swift in Sources */,
+				40FE5AEB281A72FE00B6C5BE /* CreditValuesModels.swift in Sources */,
+				40FE5AF7281BEEF800B6C5BE /* NetworkClientTests.swift in Sources */,
+				40FE5AEE281B47F300B6C5BE /* CreditValuesRequestsTests.swift in Sources */,
+				404107DF2823DB0D00DCAE0D /* CreditValuesRepositoryTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,14 +447,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		40083EDF2816FC6900F07F4A /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				40083EE02816FC6900F07F4A /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		40083EE42816FC6B00F07F4A /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -443,7 +585,7 @@
 				INFOPLIST_FILE = CreditWise/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIRequiresFullScreen = NO;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -470,7 +612,7 @@
 				INFOPLIST_FILE = CreditWise/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIRequiresFullScreen = NO;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
